@@ -1,0 +1,48 @@
+.div-Steps {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.Steps.horizontal {
+  direction: horizontal !important;
+}
+
+.div-Steps-Box {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+.nav-min {
+  display: flex;
+  display: none;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 1100px) {
+  .Steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .div-Steps {
+    display: none;
+  }
+  .nav-min {
+    font-size: 100%;
+    display: flex;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-min {
+    font-size: 10px;
+  }
+}

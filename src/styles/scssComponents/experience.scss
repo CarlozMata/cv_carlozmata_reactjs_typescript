@@ -1,0 +1,47 @@
+.experience-div {
+  //  background-color: red;
+}
+.experience-img {
+  display: flex;
+  align-items: center;
+}
+.experience-img img {
+  width: 80px;
+  height: auto;
+  border-radius: 8px;
+}
+.experience-img h3 {
+  margin-left: 10px;
+}
+.experience-company {
+  height: 50px;
+}
+.experience-title {
+  margin-top: 10px;
+}
+.experience-title h4 {
+  font-size: 20px;
+}
+.experience-title h5 {
+  font-size: 14px;
+}
+.experience-title h6 {
+  font-size: 12px;
+}
+.experience-list {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.experience-list li {
+  display: flex;
+  list-style-type: none;
+  margin-left: 20px;
+}
+.iconAntDesign {
+  margin-right: 10px;
+}
+@media (max-width: 1100px) {
+  .experience-img img {
+    width: 60px;
+  }
+}

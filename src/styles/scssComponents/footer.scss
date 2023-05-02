@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 40px;
+}
+.div-footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.footer-left {
+  display: flex;
+  text-align: start;
+}
+.footer-right {
+  display: flex;
+  gap: 6px;
+}

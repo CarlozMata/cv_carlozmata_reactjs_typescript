@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+.box-components {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  background-color: #edf2f7;
+}
+.Card-First {
+  max-width: 1000px;
+  min-width: 400px;
+  background-color: #edf2f7;
+}
+.Card-Component {
+  display: flex;
+  flex-direction: column;
+  flex-direction: horizontal;
+  margin-top: 40px;
+}
+section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: justify;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 20px;
+}
+.div {
+  //  background-color: aqua;
+  width: 90%;
+}
