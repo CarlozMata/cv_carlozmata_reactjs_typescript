@@ -1,6 +1,6 @@
 {
   "name": "cv_carlozmata_reactjs_typescript",
-  "homepage": "https://CarlozMata.github.io/cv_carlozmata_reactjs_typescript/",
+  "homepage": "https://carlozmata.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build && echo 'carlozmata.com' > ./build/CNAME ",
+    "predeploy": "npm run build && echo carlozmata.com > ./build/CNAME ",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
