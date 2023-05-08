@@ -212,6 +212,9 @@ i18n
             github:"GitHub |",
             linkedln:"Linkedln",
           },
+          contact_btn: {
+            contact:"Contáctame"
+          }
         }
       },
       en: {
@@ -406,7 +409,9 @@ i18n
             github:"GitHub |",
             linkedln:"Linkedln",
           },
-
+          contact_btn: {
+            contact:"Contact me"
+          }
         }
       },
     }
