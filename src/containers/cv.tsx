@@ -11,6 +11,7 @@ import "../styles/cv.scss";
 import PresentationComponent from "../components/presentation";
 import NavComponent from "../components/nav";
 import FooterComponent from "../components/footer";
+import ContactBtnComponent from "../components/contact_btn";
 
 const CvContainer = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -37,6 +38,7 @@ const CvContainer = () => {
             <PortfolioComponent />
             <CertificatesComponent />
             <FooterComponent />
+            <ContactBtnComponent />
           </>
         )}
       </Card>
