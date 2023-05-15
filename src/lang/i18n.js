@@ -242,7 +242,6 @@ i18n
               Age: "Age",
               Email: "Email",
               Address: "Address",
-              age: "29",
               email: "carlos_1992_@hotmail.com",
               address: "Mérida, Yuc. México."
             }
