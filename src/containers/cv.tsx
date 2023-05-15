@@ -37,8 +37,8 @@ const CvContainer = () => {
             <EducationComponent />
             <PortfolioComponent />
             <CertificatesComponent />
-            <FooterComponent />
             <ContactBtnComponent />
+            <FooterComponent />
           </>
         )}
       </Card>

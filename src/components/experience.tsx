@@ -140,7 +140,7 @@ const ExperienceComponent = () => {
                     {" "}
                     <div className="experience-all-titles">
                       <h3>
-                        <a href="http://www.imoti.mx/" target="__blank">
+                        <a href="https://imoti.mx/" target="__blank">
                           {t("experience.info.company3.companyname")}
                         </a>
                       </h3>

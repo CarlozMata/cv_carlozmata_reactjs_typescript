@@ -1,5 +1,5 @@
 .contact-icon {
-  font-size: 30px;
+  font-size: 40px;
 }
 .contact-btn {
   background-color: transparent;
@@ -11,9 +11,9 @@
   position: absolute;
   align-items: center;
   margin-left: 1000px;
-  margin-top: -100px;
-  height: 35px;
-  width: 155px;
+  margin-top: -120px;
+  height: 50px;
+  width: 170px;
 }
 
 .grow-on-hover:hover {
@@ -37,17 +37,17 @@
 
 @media (max-width: 1400px) {
   .contact-icon {
-    font-size: 35px;
+    font-size: 50px;
     margin-left: 8px;
   }
   .contact-btn {
     font-size: 0;
     justify-content: center;
     border: 0px solid;
-    margin-left: 90%;
-    height: 35px;
-    width: 35px;
-    margin-top: -5%;
+    margin-left: 93%;
+    height: 50px;
+    width: 50px;
+    margin-top: -120px;
   }
   .contact-icon:hover {
     background-color: transparent;
@@ -83,13 +83,27 @@
 }
 @media (max-width: 1000px) {
   .contact-icon {
-    font-size: 35px;
+    font-size: 50px;
   }
   .contact-btn {
-    height: 35px;
-    width: 35px;
+    height: 50px;
+    width: 50px;
+    margin-left: 90%;
   }
   .contact-icon:hover {
     background-color: transparent;
+  }
+}
+@media (max-width: 800px) {
+  .contact-icon {
+    font-size: 40px;
+  }
+  .contact-btn {
+    height: 40px;
+    width: 40px;
+  }
+  .contact-btn {
+    margin-top: -80px;
+    margin-left: 85%;
   }
 }
