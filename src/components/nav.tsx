@@ -1,4 +1,4 @@
-import { Steps } from "antd";
+import { Card, Steps } from "antd";
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/cv.scss";
@@ -36,36 +36,40 @@ const NavComponent = () => {
 
   return (
     <>
-      <div className="nav-min">
-        <div>
-          <a href="#skillsComponent">{t("nav.first")} |</a>
-        </div>
-        <div>
-          <a href="#experienceComponent">{t("nav.second")} |</a>
-        </div>
-        <div>
-          <a href="#educationComponent">{t("nav.third")} |</a>
-        </div>
-        <div>
-          <a href="#certificatesComponent">{t("nav.fourth")}</a>
-        </div>
-      </div>
-      <div className="div-Steps">
-        <div className="div-Steps-Box">
-          <Steps
-            direction="horizontal"
-            current={current}
-            onChange={onChange}
-            progressDot={true}
-            className="Steps horizontal"
-            size="small"
-          >
-            {steps.map((item, index) => (
-              <Step key={index} title={item.title} />
-            ))}
-          </Steps>
-        </div>
-      </div>
+      <main>
+        <Card className="Card-Component" id="navComponent">
+          <div className="nav-min">
+            <div>
+              <a href="#skillsComponent">{t("nav.first")} |</a>
+            </div>
+            <div>
+              <a href="#experienceComponent">{t("nav.second")} |</a>
+            </div>
+            <div>
+              <a href="#educationComponent">{t("nav.third")} |</a>
+            </div>
+            <div>
+              <a href="#certificatesComponent">{t("nav.fourth")}</a>
+            </div>
+          </div>
+          <div className="div-Steps">
+            <div className="div-Steps-Box">
+              <Steps
+                direction="horizontal"
+                current={current}
+                onChange={onChange}
+                progressDot={true}
+                className="Steps horizontal"
+                size="small"
+              >
+                {steps.map((item, index) => (
+                  <Step key={index} title={item.title} />
+                ))}
+              </Steps>
+            </div>
+          </div>
+        </Card>
+      </main>
     </>
   );
 };

@@ -1,7 +1,7 @@
 import "../styles/cv.scss";
 import "../styles/scssComponents/contact_btn.scss";
-import { Affix, Button } from "antd";
-import { LinkedinOutlined } from "@ant-design/icons";
+import { Affix, Button, Col, Row } from "antd";
+import { LinkedinOutlined, UpCircleTwoTone } from "@ant-design/icons";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -18,17 +18,19 @@ const ContactBtnComponent = () => {
 
   return (
     <>
-      <Affix offsetBottom={bottom}>
-        <Button
-          className="contact-btn grow-on-hover bounce"
-          type="primary"
-          href="https://www.linkedin.com/in/carlosalbertolopezmata/"
-          target="_blank"
-        >
-          <LinkedinOutlined className="contact-icon" />
-          {t("contact_btn.contact")}
-        </Button>
-      </Affix>
+      <div className="div-contact-btn">
+        <Affix offsetBottom={bottom}>
+          <Button
+            className="contact-btn grow-on-hover bounce"
+            type="primary"
+            href="https://www.linkedin.com/in/carlosalbertolopezmata/"
+            target="_blank"
+          >
+            <LinkedinOutlined className="contact-icon" />
+            {t("contact_btn.contact")}
+          </Button>
+        </Affix>
+      </div>
     </>
   );
 };

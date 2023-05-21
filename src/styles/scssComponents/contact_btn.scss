@@ -5,17 +5,20 @@
   background-color: transparent;
   border: 1px solid;
   font-weight: 600;
-
   color: #1677ff;
   display: flex;
   position: absolute;
   align-items: center;
-  margin-left: 1000px;
+  margin-left: 55px;
   margin-top: -120px;
   height: 50px;
   width: 170px;
 }
-
+.div-contact-btn {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
 .grow-on-hover:hover {
   transform: scale(1.2);
   animation: none;
@@ -44,15 +47,15 @@
     font-size: 0;
     justify-content: center;
     border: 0px solid;
-    margin-left: 93%;
+    margin-left: -60px;
+    margin-top: -120px;
+    height: 50px;
+    width: 170px;
     height: 50px;
     width: 50px;
-    margin-top: -80px;
-    //    margin-left: 85%;
   }
   .contact-icon:hover {
     background-color: transparent;
-    //    color: #1677ff;
   }
   @keyframes bounce {
     0%,
@@ -66,20 +69,15 @@
 
   .contact-btn {
     position: relative;
-    /* El resto de tus reglas */
   }
-
   .contact-btn:hover::after {
     position: absolute;
     justify-content: center;
     text-align: center;
     bottom: 100%;
     left: 0;
-    //background-color: #fff;
     color: #000;
     padding: 0px;
-    //    border: 1px solid #000;
-    //    border-radius: 5px;
   }
 }
 @media (max-width: 1000px) {
@@ -89,7 +87,6 @@
   .contact-btn {
     height: 50px;
     width: 50px;
-    margin-left: 90%;
   }
   .contact-icon:hover {
     background-color: transparent;
@@ -102,9 +99,5 @@
   .contact-btn {
     height: 40px;
     width: 40px;
-  }
-  .contact-btn {
-    margin-top: -70px;
-    margin-left: 85%;
   }
 }

@@ -1,0 +1,61 @@
+.contact-icon {
+  font-size: 40px;
+}
+.up-icon {
+  font-size: 40px;
+  margin-left: -20px;
+}
+.up-btn {
+  background-color: transparent;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin-left: -100px;
+  margin-top: -100px;
+  height: 0px;
+  width: 0px;
+}
+
+.grow-on-hover:hover {
+  transform: scale(1.2);
+  animation: none;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+.bounce {
+  animation: bounce 0.5s infinite;
+}
+
+@media (max-width: 1400px) {
+  .up-btn {
+    margin-left: 20px;
+    margin-top: -100px;
+  }
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-4px);
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .up-btn {
+    margin-left: 20px;
+    margin-top: -100px;
+  }
+  .up-icon:hover {
+    background-color: transparent;
+  }
+}

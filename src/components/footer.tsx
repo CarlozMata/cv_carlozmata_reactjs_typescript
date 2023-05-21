@@ -18,13 +18,13 @@ const FooterComponent = () => {
       <div className="footer">
         <div className="div-footer">
           <div className="footer-left">
-            <a href="https://carlozmata.com/" target="__blank">
+            {/*            <a href="https://carlozmata.com/" target="__blank">
               -CARLOZMATA-
-            </a>
-            {/*             <a href="https://carlozmata.com/" target="__blank">
+            </a>*/}
+            <a href="https://carlozmata.com/" target="__blank">
               {t("footer.name")}
               {year}
-            </a> */}
+            </a>
           </div>
           <div className="footer-right">
             <a href="https://github.com/CarlozMata" target="__blank">

@@ -1,5 +1,5 @@
 import Card from "antd/es/card/Card";
-import { Skeleton } from "antd";
+import { Col, Row, Skeleton } from "antd";
 import React, { useEffect, useState } from "react";
 import AboutMeComponent from "../components/aboutMe";
 import SkillComponent from "../components/skill";
@@ -12,6 +12,7 @@ import PresentationComponent from "../components/presentation";
 import NavComponent from "../components/nav";
 import FooterComponent from "../components/footer";
 import ContactBtnComponent from "../components/contact_btn";
+import UpBtnComponent from "../components/up_btn";
 
 const CvContainer = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -37,7 +38,10 @@ const CvContainer = () => {
             <EducationComponent />
             <PortfolioComponent />
             <CertificatesComponent />
-            <ContactBtnComponent />
+            <Row>
+              <UpBtnComponent />
+              <ContactBtnComponent />
+            </Row>
             <FooterComponent />
           </>
         )}
