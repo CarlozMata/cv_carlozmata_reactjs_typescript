@@ -1,6 +1,3 @@
-.contact-icon {
-  font-size: 40px;
-}
 .up-icon {
   font-size: 40px;
   margin-left: -20px;
@@ -57,5 +54,11 @@
   }
   .up-icon:hover {
     background-color: transparent;
+  }
+}
+@media (max-width: 500px) {
+  .up-icon {
+    margin-left: -15px;
+    font-size: 30px;
   }
 }

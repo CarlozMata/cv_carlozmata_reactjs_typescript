@@ -43,6 +43,11 @@
 
 @media (max-width: 500px) {
   .nav-min {
-    font-size: 10px;
+    font-size: 9px;
+  }
+}
+@media (max-width: 400px) {
+  .nav-min {
+    font-size: 8px;
   }
 }
