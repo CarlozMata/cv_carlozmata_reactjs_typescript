@@ -237,12 +237,11 @@ i18n
             title: "About Me",
             info: {
               firstParagraph: "Hi! I´m Carlos Mata",
-              secondParagraph:"💼 Professional, Responsible, Creative, Organized with constant training and passionate about Technology. With more than 5 years of experience in the IT area and great fascination with programming, always trying to keep myself updated.",
-              thirdParagraph:"💻 I have had the opportunity to Create, Manage websites, Participate in projects implementing new functionalities and migration of new projects to new technologies using MicroFronts.",
+              secondParagraph:"💼 A professional, responsible, creative, and organized with ongoing training and a passion for Technology. I have over 6 years of experience in the IT field and a great fascination with programming, always striving to stay up to date.",
+              thirdParagraph:"💻 I have had the opportunity to create and manage websites, participate in projects implementing new functionalities, and migrate new projects to new technologies using MicroFronts.",
               Age: "Age",
               Email: "Email",
               Address: "Address",
-              age: "29",
               email: "carlos_1992_@hotmail.com",
               address: "Mérida, Yuc. México."
             }

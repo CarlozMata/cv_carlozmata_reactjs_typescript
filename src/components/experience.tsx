@@ -1,4 +1,4 @@
-import { Card } from "antd";
+import { Card, Col, Row } from "antd";
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/cv.scss";
@@ -25,23 +25,31 @@ const ExperienceComponent = () => {
           <section>
             <div className="div">
               <div className="experience-div">
-                <div className="experience-img">
-                  <img
-                    className="experience-company"
-                    src={imagenes.macropay}
-                    alt="Logotipo Macropay"
-                  />
-                  <h3>
-                    <a href="https://macropay.mx/" target="__blank">
-                      {t("experience.info.company5.companyname")}
-                    </a>
-                  </h3>
-                </div>
-                <div className="experience-title">
-                  <h4>{t("experience.info.company5.position")}</h4>
-                  <h5>{t("experience.info.company5.address")}</h5>
-                  <h6>{t("experience.info.company5.dates")}</h6>
-                </div>
+                <Row>
+                  <Col lg={20} md={20} sm={18} xs={17}>
+                    <div className="experience-all-titles">
+                      <h3>
+                        <a href="https://macropay.mx/" target="__blank">
+                          {t("experience.info.company5.companyname")}
+                        </a>
+                      </h3>
+                      <div className="experience-title">
+                        <h4>{t("experience.info.company5.position")}</h4>
+                        <h5>{t("experience.info.company5.address")}</h5>
+                        <h6>{t("experience.info.company5.dates")}</h6>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col lg={4} md={4} sm={6} xs={7}>
+                    <div className="experience-img">
+                      <img
+                        className="experience-company"
+                        src={imagenes.macropay}
+                        alt="Logotipo Macropay"
+                      />
+                    </div>
+                  </Col>
+                </Row>
                 <div className="experience-list">
                   <ul>
                     <li>
@@ -66,23 +74,31 @@ const ExperienceComponent = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="experience-img">
-                  <img
-                    className="experience-company"
-                    src={imagenes.FREELANCE}
-                    alt="Logotipo Freelance"
-                  />
-                  <h3>
-                    <a href="https://carlozmata.com/" target="__blank">
-                      {t("experience.info.company4.companyname")}
-                    </a>
-                  </h3>
-                </div>
-                <div className="experience-title">
-                  <h4>{t("experience.info.company4.position")}</h4>
-                  <h5>{t("experience.info.company4.address")}</h5>
-                  <h6>{t("experience.info.company4.dates")}</h6>
-                </div>
+                <Row>
+                  <Col lg={20} md={20} sm={18} xs={17}>
+                    <div className="experience-all-titles">
+                      <h3>
+                        <a href="https://carlozmata.com/" target="__blank">
+                          {t("experience.info.company4.companyname")}
+                        </a>
+                      </h3>
+                      <div className="experience-title">
+                        <h4>{t("experience.info.company4.position")}</h4>
+                        <h5>{t("experience.info.company4.address")}</h5>
+                        <h6>{t("experience.info.company4.dates")}</h6>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col lg={4} md={4} sm={6} xs={7}>
+                    <div className="experience-img">
+                      <img
+                        className="experience-company"
+                        src={imagenes.freelance}
+                        alt="Logotipo Freelance"
+                      />
+                    </div>
+                  </Col>
+                </Row>
                 <div className="experience-list">
                   <ul>
                     <li>
@@ -119,23 +135,33 @@ const ExperienceComponent = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="experience-img">
-                  <img
-                    className="experience-company"
-                    src={imagenes.IMOPng}
-                    alt="Logotipo IMO"
-                  />
-                  <h3>
-                    <a href="http://www.imoti.mx/" target="__blank">
-                      {t("experience.info.company3.companyname")}
-                    </a>
-                  </h3>
-                </div>
-                <div className="experience-title">
-                  <h4>{t("experience.info.company3.position")}</h4>
-                  <h5>{t("experience.info.company3.address")}</h5>
-                  <h6>{t("experience.info.company3.dates")}</h6>
-                </div>
+                <Row>
+                  <Col lg={20} md={20} sm={18} xs={17}>
+                    {" "}
+                    <div className="experience-all-titles">
+                      <h3>
+                        <a href="https://imoti.mx/" target="__blank">
+                          {t("experience.info.company3.companyname")}
+                        </a>
+                      </h3>
+                      <div className="experience-title">
+                        <h4>{t("experience.info.company3.position")}</h4>
+                        <h5>{t("experience.info.company3.address")}</h5>
+                        <h6>{t("experience.info.company3.dates")}</h6>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col lg={4} md={4} sm={6} xs={7}>
+                    {" "}
+                    <div className="experience-img">
+                      <img
+                        className="experience-company"
+                        src={imagenes.IMOJpg}
+                        alt="Logotipo IMO"
+                      />
+                    </div>
+                  </Col>
+                </Row>
                 <div className="experience-list">
                   <ul>
                     <li>
@@ -196,23 +222,34 @@ const ExperienceComponent = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="experience-img">
-                  <img
-                    className="experience-company"
-                    src={imagenes.LBPng}
-                    alt="Logotipo LB SISTEMAS"
-                  />
-                  <h3>
-                    <a href="https://www.lbsistemas.com.mx/" target="__blank">
-                      {t("experience.info.company2.companyname")}
-                    </a>
-                  </h3>
-                </div>
-                <div className="experience-title">
-                  <h4>{t("experience.info.company2.position")}</h4>
-                  <h5>{t("experience.info.company2.address")}</h5>
-                  <h6>{t("experience.info.company2.dates")}</h6>
-                </div>
+                <Row>
+                  <Col lg={20} md={20} sm={18} xs={17}>
+                    <div className="experience-all-titles">
+                      <h3>
+                        <a
+                          href="https://www.lbsistemas.com.mx/"
+                          target="__blank"
+                        >
+                          {t("experience.info.company2.companyname")}
+                        </a>
+                      </h3>
+                      <div className="experience-title">
+                        <h4>{t("experience.info.company2.position")}</h4>
+                        <h5>{t("experience.info.company2.address")}</h5>
+                        <h6>{t("experience.info.company2.dates")}</h6>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col lg={4} md={4} sm={6} xs={7}>
+                    <div className="experience-img">
+                      <img
+                        className="experience-company"
+                        src={imagenes.LBJpg}
+                        alt="Logotipo LB SISTEMAS"
+                      />
+                    </div>
+                  </Col>
+                </Row>
                 <div className="experience-list">
                   <ul>
                     <li>
@@ -237,23 +274,32 @@ const ExperienceComponent = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="experience-img">
-                  <img
-                    className="experience-company"
-                    src={imagenes.LAREDPng}
-                    alt="Logotipo LA RED"
-                  />
-                  <h3>
-                    <a href="https://www.lared.mx/" target="__blank">
-                      {t("experience.info.company1.companyname")}
-                    </a>
-                  </h3>
-                </div>
-                <div className="experience-title">
-                  <h4>{t("experience.info.company1.position")}</h4>
-                  <h5>{t("experience.info.company1.address")}</h5>
-                  <h6>{t("experience.info.company1.dates")}</h6>
-                </div>
+                <Row>
+                  <Col lg={20} md={20} sm={18} xs={17}>
+                    <div className="experience-all-titles">
+                      <h3>
+                        <a href="https://www.lared.mx/" target="__blank">
+                          {t("experience.info.company1.companyname")}
+                        </a>
+                      </h3>
+                      <div className="experience-title">
+                        <h4>{t("experience.info.company1.position")}</h4>
+                        <h5>{t("experience.info.company1.address")}</h5>
+                        <h6>{t("experience.info.company1.dates")}</h6>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col lg={4} md={4} sm={6} xs={7}>
+                    {" "}
+                    <div className="experience-img">
+                      <img
+                        className="experience-company"
+                        src={imagenes.LAREDJpg}
+                        alt="Logotipo LA RED"
+                      />
+                    </div>
+                  </Col>
+                </Row>
                 <div className="experience-list">
                   <ul>
                     <li>
@@ -290,11 +336,17 @@ const ExperienceComponent = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="experience-title">
-                  <h4>{t("experience.info.company1.position2")}</h4>
-                  <h5>{t("experience.info.company1.address2")}</h5>
-                  <h6>{t("experience.info.company1.dates2")}</h6>
-                </div>
+                <Row>
+                  <Col lg={20} md={20} sm={18} xs={16}>
+                    <div className="experience-all-titles">
+                      <div className="experience-title">
+                        <h4>{t("experience.info.company1.position2")}</h4>
+                        <h5>{t("experience.info.company1.address2")}</h5>
+                        <h6>{t("experience.info.company1.dates2")}</h6>
+                      </div>
+                    </div>
+                  </Col>
+                </Row>
                 <div className="experience-list">
                   <ul>
                     <li>
