@@ -283,9 +283,9 @@ const ExperienceComponent = () => {
                         </a>
                       </h3>
                       <div className="experience-title">
-                        <h4>{t("experience.info.company1.position")}</h4>
+                        <h4>{t("experience.info.company1.act20")}</h4>
                         <h5>{t("experience.info.company1.address")}</h5>
-                        <h6>{t("experience.info.company1.dates")}</h6>
+                        <h6>{t("experience.info.company1.act21")}</h6>
                       </div>
                     </div>
                   </Col>
@@ -300,6 +300,11 @@ const ExperienceComponent = () => {
                     </div>
                   </Col>
                 </Row>
+                <div className="experience-title">
+                  <h4>{t("experience.info.company1.position")}</h4>
+                  <h6>{t("experience.info.company1.dates")}</h6>
+                </div>
+
                 <div className="experience-list">
                   <ul>
                     <li>
@@ -341,7 +346,6 @@ const ExperienceComponent = () => {
                     <div className="experience-all-titles">
                       <div className="experience-title">
                         <h4>{t("experience.info.company1.position2")}</h4>
-                        <h5>{t("experience.info.company1.address2")}</h5>
                         <h6>{t("experience.info.company1.dates2")}</h6>
                       </div>
                     </div>

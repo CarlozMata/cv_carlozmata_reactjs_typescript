@@ -297,6 +297,8 @@ i18n
                 act17:"Elaborations of tenders public and private",
                 act18:"Designs of banner publicity for emails",
                 act19:"Designs of Marketing for emails and website",
+                act20:"Soporte Tecnico | Inside Sales",
+                act21:"Jornada completa / agosto 2016 - marzo 2019. 2 años 8 meses"
               },
               company2: {
                 companyname:"LB SISTEMAS",
