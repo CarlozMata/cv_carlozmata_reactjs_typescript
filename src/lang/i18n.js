@@ -101,6 +101,9 @@ i18n
                 act17:"Elaboración de Licitaciones publicas y privadas.",
                 act18:"Diseño de banner publicitario para correos.",
                 act19:"Diseños de Marketing para correo y Sitio Web.",
+                act20:"Soporte Tecnico | Inside Sales",
+                act21:"Jornada completa / agosto 2016 - marzo 2019. 2 años 8 meses"
+
               },
               company2: {
                 companyname:"LB SISTEMAS",
@@ -274,7 +277,7 @@ i18n
                 companyname:"LA RED CORPORATIVO",
                 position: "Tech Support",
                 address: "Villahermosa, Tabasco, México.",
-                dates: "Full-Time / August 2016 - August 2017. 1 year and 1 month",
+                dates: "Full-Time / August 2016 - August 2017. 1 Year and 1 Month",
                 act1:"Customer Service",
                 act2:"Warranty of equipment Dell",
                 act3:"Administration Service Desk",
@@ -297,14 +300,14 @@ i18n
                 act17:"Elaborations of tenders public and private",
                 act18:"Designs of banner publicity for emails",
                 act19:"Designs of Marketing for emails and website",
-                act20:"Soporte Tecnico | Inside Sales",
-                act21:"Jornada completa / agosto 2016 - marzo 2019. 2 años 8 meses"
+                act20:"Tech Support | Inside Sales",
+                act21:"Full-Time / August 2016 - March 2019. 2 Years 8 Mounths"
               },
               company2: {
                 companyname:"LB SISTEMAS",
                 position: "Inside Sales",
                 address: "Mérida, Yucatán, México",
-                dates: "Full-Time / April 2019 - July 2019. 4 months",
+                dates: "Full-Time / April 2019 - July 2019. 4 Months",
                 act1:"Prospecting for new Accounts",
                 act2:"Interaction with Clients and Providers",
                 act3:"Development of Accounts",

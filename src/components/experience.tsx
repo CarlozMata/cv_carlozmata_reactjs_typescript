@@ -1,4 +1,4 @@
-import { Card, Col, Row } from "antd";
+import { Card, Col, Divider, Row } from "antd";
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/cv.scss";
@@ -75,6 +75,7 @@ const ExperienceComponent = () => {
                   </ul>
                 </div>
                 <Row>
+                  <Divider></Divider>
                   <Col lg={20} md={20} sm={18} xs={17}>
                     <div className="experience-all-titles">
                       <h3>
@@ -135,6 +136,7 @@ const ExperienceComponent = () => {
                     </li>
                   </ul>
                 </div>
+                <Divider></Divider>
                 <Row>
                   <Col lg={20} md={20} sm={18} xs={17}>
                     {" "}
@@ -222,6 +224,7 @@ const ExperienceComponent = () => {
                     </li>
                   </ul>
                 </div>
+                <Divider></Divider>
                 <Row>
                   <Col lg={20} md={20} sm={18} xs={17}>
                     <div className="experience-all-titles">
@@ -274,6 +277,8 @@ const ExperienceComponent = () => {
                     </li>
                   </ul>
                 </div>
+                <Divider></Divider>
+
                 <Row>
                   <Col lg={20} md={20} sm={18} xs={17}>
                     <div className="experience-all-titles">
@@ -300,7 +305,7 @@ const ExperienceComponent = () => {
                     </div>
                   </Col>
                 </Row>
-                <div className="experience-title">
+                <div className="experience-title experience-top">
                   <h4>{t("experience.info.company1.position")}</h4>
                   <h6>{t("experience.info.company1.dates")}</h6>
                 </div>
