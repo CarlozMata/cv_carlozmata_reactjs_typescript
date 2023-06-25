@@ -90,7 +90,7 @@ const PortfolioComponent = () => {
                       <h3>{t("portfolio.info.page4.title")}</h3>
                       <p>{t("portfolio.info.page4.info")}</p>
                       <p>{t("portfolio.info.page4.description")}</p>
-                      <a href="https://carlozmata.github.io/Practica_JS/">
+                      <a href="https://carlozmata.github.io/Next_Practices/">
                         {t("portfolio.info.page4.url")}
                       </a>
                     </div>
